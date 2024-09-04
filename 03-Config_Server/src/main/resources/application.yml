@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: Config-Server
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/AshadKhan-786/configuration_properties
+          clone-on-start: true
+          
+     
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include:
+#        - '*'
+        
+server:
+  port: 2222

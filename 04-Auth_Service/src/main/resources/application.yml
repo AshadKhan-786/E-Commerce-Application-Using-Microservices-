@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: Auth-Service
+        
+  config:
+    import: optional:configserver:http://localhost:2222/
+
+
+auth-service:
+  messages:
+    userReg : User Registered Successfully
+    userRegErr: User Registration Failed
+    login: Yes
+    loginErr: No
